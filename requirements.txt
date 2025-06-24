@@ -1,0 +1,13 @@
+# requirements.txt
+
+# Para la API
+fastapi
+uvicorn[standard]
+
+# Para los modelos de ML
+pandas
+numpy
+joblib
+scikit-learn
+scikit-surprise
+nltk
