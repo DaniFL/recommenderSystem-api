@@ -1,15 +1,8 @@
 # requirements.txt
-
-# Para la API
-fastapi==0.115.13
-uvicorn[standard]
-
-# Para los modelos de ML
-# Fijamos las versiones para asegurar la compatibilidad entre el entorno
-# de entrenamiento y el de producción.
-pandas==2.2.2
-numpy==1.26.4
-joblib==1.4.2
-scikit-learn==1.6.0
-scikit-surprise==1.1.4
-nltk==3.8.1
+pandas
+scikit-learn
+scikit-surprise
+joblib
+numpy
+fastapi
+uvicorn
